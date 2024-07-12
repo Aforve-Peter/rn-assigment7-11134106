@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './HomeScreen';
+import Home from './Home';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Cart from './CartScreen';
+import Cart from './Cart';
 import { CartProvider } from './CartContext';
 import ProductDetails from './ProductDetails';
 import CustomDrawerContent from './DrawerContent';
